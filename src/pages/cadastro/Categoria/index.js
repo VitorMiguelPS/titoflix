@@ -7,6 +7,14 @@ const CadastroCategoria = function () {
 		<PageDefault>
       <h1>Cadastro de Categoria</h1>
 
+			<form>
+				<label>
+					Nome da Categoria:
+					<input type="text"></input>
+				</label>
+				<button type="submit"> Cadastrar </button>
+			</form>
+
       <Link to="/">
         Ir para home
       </Link>
